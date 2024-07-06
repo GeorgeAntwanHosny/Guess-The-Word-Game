@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Word Game</title>
+    <link rel="stylesheet" href="./app.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+    <div class="gameContainer">
+        <div>
+            <img src="./images/Word Scramblle.svg" alt="Word Scramblle">
+       
+        <div id="guess_words">
+            <span>r</span>
+            <span>e</span>
+            <span>l</span>
+            <span>o</span>
+            <span>w</span>
+            <span>f</span>
+        </div>
+        <div id="tries_mistaske">
+            <div id="tries">
+                <p>Tries(4/5):</p>
+                <p class="circle active"></p>
+                <p class="circle active"></p>
+                <p class="circle active"></p>
+                <p class="circle active"></p>
+                <p class="circle"></p>
+               
+            </div>
+            <p id="mistakes">
+                Mistakes:
+                <span>a, e, w, t</span>
+            </p>
+        </div>
+        <div id="inputs_group">
+            <input type="text" value="f" maxlength="1" size="1" autofocus>
+            <input type="text" value="l" maxlength="1"size="1">
+            <input type="text" value="o" maxlength="1"size="1">
+            <input type="text" value="w" maxlength="1"size="1">
+            <input type="text" id ="test" maxlength="1"size="1">
+            <input type="text" maxlength="1"size="1">
+        </div>
+        <div>
+            <button id="random">Random</button>
+            <button id="rest">Reset</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
