@@ -27,4 +27,4 @@
 
 - ### The page should be responsive on different screen sizes.
 
-- ### Deploy the solution with [Demo URL]().
+- ### Deploy the solution with [Demo URL](https://guess-the-word-game-pi.vercel.app/).
